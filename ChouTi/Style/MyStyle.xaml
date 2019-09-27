@@ -8,7 +8,7 @@
         <Setter Property="Height" Value="Auto"/>
         <Setter Property="Width" Value="Auto"/>
         <Setter Property="Margin" Value="10,0,10,0"/>
-        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+        <Setter Property="FontFamily" Value="{StaticResource FontYouYuan}"/>
         <Setter Property="FontSize" Value="12"/>
     </Style>
 
@@ -19,7 +19,7 @@
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="Margin" Value="3"/>
         <Setter Property="TextAlignment" Value="Center"/>
-        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+        <Setter Property="FontFamily" Value="{StaticResource FontYouYuan}"/>
     </Style>
 
 
@@ -30,7 +30,7 @@
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
         <Setter Property="Margin" Value="3"/>
-        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+        <Setter Property="FontFamily" Value="{StaticResource FontYouYuan}"/>
     </Style>
     <!--人员详细信息大框Style-->
     <Style x:Key="TextBoxBigDetailStyle" TargetType="TextBox" BasedOn="{StaticResource TextBoxSimpleStyle}">
@@ -40,10 +40,11 @@
         <Setter Property="TextAlignment" Value="Left"/>
         <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
         <Setter Property="VerticalContentAlignment" Value="Top"/>
+        <Setter Property="FontSize" Value="18"/>
     </Style>
 
     <Style x:Key="CheckBoxSimpleStyle" TargetType="CheckBox" BasedOn="{StaticResource MetroCheckBox}">
-        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+        <Setter Property="FontFamily" Value="{StaticResource FontYouYuan}"/>
         <Setter Property="FontSize" Value="12"/>
     </Style>
     

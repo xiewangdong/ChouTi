@@ -17,7 +17,7 @@
             </ResourceDictionary.MergedDictionaries>
 
             <!--字体资源-->
-            <FontFamily x:Key="font">/Resource/Fonts/#YouYuan</FontFamily>
+            <FontFamily x:Key="FontYouYuan">微软雅黑</FontFamily>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

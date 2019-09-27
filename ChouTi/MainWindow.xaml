@@ -6,7 +6,6 @@
         xmlns:Metro="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:local="clr-namespace:ChouTi"
         xmlns:vm="clr-namespace:ChouTi.ViewModel"
-        xmlns:mvvm="http://www.galasoft.ch/mvvmlight"
         mc:Ignorable="d"
         Title="简答题抽题工具" WindowState="Maximized">
     <Metro:MetroWindow.Resources>
