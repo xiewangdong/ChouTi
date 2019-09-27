@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ChouTi.Style"
+                    xmlns:Metro="http://metro.mahapps.com/winfx/xaml/controls">
+
+    <!--简单Button样式 BasedOn="{StaticResource ButtonStyle}"-->
+    <Style x:Key="SimpleButtonStyle" TargetType="Button" BasedOn="{StaticResource MetroButton}">
+        <Setter Property="Height" Value="Auto"/>
+        <Setter Property="Width" Value="Auto"/>
+        <Setter Property="Margin" Value="10,0,10,0"/>
+        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+        <Setter Property="FontSize" Value="12"/>
+    </Style>
+
+
+    <!--TextBlock基础Style-->
+    <Style x:Key="TextBlockSimpleStyle" TargetType="{x:Type TextBlock}" BasedOn="{StaticResource MetroTextBlock}">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+    </Style>
+
+
+    <!--TextBox基础Style BasedOn="{StaticResource TextBoxStyle}"-->
+    <Style x:Key="TextBoxSimpleStyle" TargetType="{x:Type TextBox}" BasedOn="{StaticResource MetroTextBox}">
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="3"/>
+        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+    </Style>
+    <!--人员详细信息大框Style-->
+    <Style x:Key="TextBoxBigDetailStyle" TargetType="TextBox" BasedOn="{StaticResource TextBoxSimpleStyle}">
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="IsReadOnly" Value="True"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="TextAlignment" Value="Left"/>
+        <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="VerticalContentAlignment" Value="Top"/>
+    </Style>
+
+    <Style x:Key="CheckBoxSimpleStyle" TargetType="CheckBox" BasedOn="{StaticResource MetroCheckBox}">
+        <Setter Property="FontFamily" Value="{StaticResource font}"/>
+        <Setter Property="FontSize" Value="12"/>
+    </Style>
+    
+</ResourceDictionary>
